@@ -1,0 +1,113 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+.container-container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+   
+   text-align: center;
+   font-family: 'Tulpen One', cursive;
+}
+
+.container{
+    background-color: rgb(8, 7, 88);
+    height:70vh;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px rgb(239, 233, 233), -4px -4px 4px 4px rgb(239, 233, 233);
+
+}
+.message{
+    padding:30px 0;
+}
+.upper-container{
+    text-align: center;
+    margin:50px 0;
+}
+.progress{
+    width:300px;
+    background-color: white;
+    height:20px;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px 0;
+}
+#text{
+    position: absolute;
+    left:43%;
+    font-size: 14px;
+
+}
+.progress-bar{
+    background-image: linear-gradient(to right,rgb(72, 72, 231),rgb(8, 8, 204),rgb(8, 8, 82));
+    width:0;
+    height:20px;
+    border-radius: 20px;
+    transition: 1.5s ease-in;
+    color:white;
+}
+.lower-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+#input{
+    margin-right:90px;
+    width: 100px;
+    height: 30px;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    font-size: 1.2rem;
+    color:black;
+
+}
+#max-input{
+
+    width: 100px;
+    height: 30px;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    font-size: 1.2rem;
+    color:black;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:30px;
+}
+button{
+    margin:0 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius:10px;
+    border:none;
+    color:black;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 2px 2px 2px 2px rgb(214, 199, 199), -2px -2px 2px 2px rgb(214, 199, 199);
+}
+button:hover{
+    box-shadow: 2px 2px 2px 2px rgb(189, 169, 169), -2px -2px 2px 2px rgb(189, 169, 169);
+    transform: scale(1.1);
+    background-color: rgb(161, 145, 145);
+    color:white;
+}
+

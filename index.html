@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Progress-Bar</title>
+    <link rel="shortcut icon" href="bar.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <div class="container-container">
+    <div class="container">
+        <h2 id="heading">Here you can calculate your progress by value</h2>
+        <div class="upper-container">
+            <h2>Your Progress</h2>
+            <div class="progress">
+                <h4 id="text"></h4>
+                <div class="progress-bar"></div>
+                <p class="message"></p>
+            </div>
+        </div>
+
+        <div class="lower-container">
+
+
+            <div class="input-container">
+
+            
+                    <label for="value-input">Your Score: </label>
+                <input type="number" name="" id="input">
+
+                
+
+               
+                <label for="max-input">Maximum Range: </label>
+                <input type="number" name="" id="max-input">
+               
+
+                <div class="button-container">
+                    <button class="submit">Calculate</button>
+                    <button class="reset">Reset</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+   </div>
+
+    <script src="./javascript.js"></script>
+    
+</body>
+</html>
